@@ -134,7 +134,8 @@ nav {
 
 input[type="search"]::-webkit-input-placeholder {
     transition: opacity 0.3s linear;
-    color: #0065FC;
+    color:black;
+    font-weight: bold;
 }
 
 input[type="search"]:focus::-webkit-input-placeholder {
