@@ -743,6 +743,7 @@ footer a:hover {
     .menu li {
         border-bottom: 2px solid #ccc;
         width: 100%;
+        padding-bottom: 13px;
     }
 
     .menu li:hover {
