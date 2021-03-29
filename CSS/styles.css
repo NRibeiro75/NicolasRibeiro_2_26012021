@@ -147,7 +147,7 @@ input[type="search"]:focus::-webkit-input-placeholder {
     opacity: 0;
 }
 
-
+/*enleve l'arrondi sur iphone*/
 input[type="search"] {
     -webkit-appearance: none;
     border-radius: 0;
@@ -942,4 +942,23 @@ footer a:hover {
         width: 100%;
         text-align: center;
     }
+}
+@media screen and (max-width: 375px)
+{
+    .fa-chart-line{
+        margin-left: 60px;
+    }
+    .populaires .vignette{
+        width:auto;
+    }
+    .hebergements .vignette{
+        width:auto;
+    }
+    .hebergements .vignette img{
+        width: 100%;
+    }
+    .activites .vignettes img{
+        width:auto;
+    }
+    
 }
