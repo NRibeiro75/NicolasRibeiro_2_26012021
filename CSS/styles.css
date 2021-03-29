@@ -147,7 +147,7 @@ input[type="search"]:focus::-webkit-input-placeholder {
     opacity: 0;
 }
 
-/*enleve l'arrondi sur iphone*/
+/*enleve l'arrondi de la barre de recherche sur iphone*/
 input[type="search"] {
     -webkit-appearance: none;
     border-radius: 0;
@@ -318,6 +318,8 @@ i.fa-info {
 .main {
     margin: auto;
     margin-top:43px;
+    margin-left:50px;
+    margin-right:50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -467,6 +469,8 @@ i.fa-info {
     margin: auto;
     max-width: 1440px;
     margin-top:60px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #activites h2 {
