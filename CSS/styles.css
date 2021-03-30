@@ -318,8 +318,8 @@ i.fa-info {
 .main {
     margin: auto;
     margin-top:43px;
-    padding-left:50px;
-    padding-right:50px;
+    margin-left:50px;
+    margin-right:50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -451,7 +451,7 @@ i.fa-info {
 }
 
 #populaires h2 {
-    display: inline-block;
+    /* display: inline-block; */
     padding-left: 1px;
 }
 
@@ -469,8 +469,8 @@ i.fa-info {
     margin: auto;
     max-width: 1440px;
     margin-top:60px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #activites h2 {
@@ -595,9 +595,9 @@ footer a:hover {
 }
 
 /*################################################*/
-/*############# -Inferieur a 1200px- #############*/
+/*############# -Inferieur a 1378px- #############*/
 /*################################################*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1378px) {
     .filtres label {
         font-size: 1em;
     }
@@ -615,6 +615,7 @@ footer a:hover {
 
     #populaires h2 {
         margin-left: 39px;
+        text-align: center;
     }
 
     .populaires {
@@ -688,12 +689,12 @@ footer a:hover {
     }
 
     #populaires h2 {
-        margin-left: unset;
+        margin-left: 27px;
     }
 
     .fa-chart-line {
         position: absolute;
-        right: 90px;
+        right: 67px;
         margin: unset;
         padding-top: 5px;
     }
@@ -721,7 +722,6 @@ footer a:hover {
     #activites {
         margin: auto;
         margin-top: 44px;
-        padding:unset;
     }
 
     #activites h2 {
@@ -834,9 +834,9 @@ footer a:hover {
     i.fa-info {
         display: table;
     }
-    .main{
-        padding: unset;
-    }
+    /* .main{
+        
+    } */
 
     #populaires {
         padding-left: 20px;
@@ -850,7 +850,7 @@ footer a:hover {
     }
 
     .fa-chart-line {
-        margin-left: 116px;
+        margin-left: 108px;
     }
 
     .populaires {
@@ -887,7 +887,6 @@ footer a:hover {
 
     #activites {
         margin-top: 12px;
-        padding:unset;
     }
 
     #activites h2 {
@@ -956,7 +955,7 @@ footer a:hover {
 @media screen and (max-width: 375px)
 {
     .fa-chart-line{
-        margin-left: 60px;
+        margin-left: 53px;
     }
     .populaires .vignette{
         width:auto;
@@ -971,4 +970,15 @@ footer a:hover {
         width:auto;
     }
     
+}
+@media screen and (min-width: 1441px)
+{
+    .main{
+        margin:auto;
+        margin-top: 43px;
+    }
+    #activites{
+        margin:auto;
+        margin-top:60px;
+    }
 }
