@@ -694,11 +694,7 @@ footer a:hover {
     .fa-chart-line {
         position: absolute;
         right: 90px;
-<<<<<<< Updated upstream
-        margin: unset;*
-=======
         margin: unset;
->>>>>>> Stashed changes
         padding-top: 5px;
     }
 
