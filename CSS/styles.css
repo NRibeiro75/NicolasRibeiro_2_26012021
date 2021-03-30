@@ -694,7 +694,11 @@ footer a:hover {
     .fa-chart-line {
         position: absolute;
         right: 90px;
+<<<<<<< Updated upstream
         margin: unset;*
+=======
+        margin: unset;
+>>>>>>> Stashed changes
         padding-top: 5px;
     }
 
@@ -721,6 +725,7 @@ footer a:hover {
     #activites {
         margin: auto;
         margin-top: 44px;
+        padding:unset;
     }
 
     #activites h2 {
@@ -833,6 +838,9 @@ footer a:hover {
     i.fa-info {
         display: table;
     }
+    .main{
+        padding: unset;
+    }
 
     #populaires {
         padding-left: 20px;
@@ -883,6 +891,7 @@ footer a:hover {
 
     #activites {
         margin-top: 12px;
+        padding:unset;
     }
 
     #activites h2 {
