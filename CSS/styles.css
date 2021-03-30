@@ -694,7 +694,8 @@ footer a:hover {
     .fa-chart-line {
         position: absolute;
         right: 90px;
-        margin: unset;
+        margin: unset;*
+        padding-top: 5px;
     }
 
     .populaires {
