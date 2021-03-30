@@ -688,12 +688,12 @@ footer a:hover {
     }
 
     #populaires h2 {
-        margin-left: 27px;
+        margin-left: unset;
     }
 
     .fa-chart-line {
         position: absolute;
-        right: 67px;
+        right: 90px;
         margin: unset;
     }
 
