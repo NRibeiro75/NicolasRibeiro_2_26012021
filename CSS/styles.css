@@ -456,7 +456,7 @@ i.fa-info {
 }
 
 .fa-chart-line {
-    margin-left: 117px;
+    margin-left: 110px;
 }
 
 .populaires .vignette:hover {
@@ -588,7 +588,7 @@ footer a:hover {
 }
 
 /*enleve la loupe sur grand ecrans*/
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 481px) {
     button .fa-search {
         display: none;
     }
@@ -664,7 +664,7 @@ footer a:hover {
 /*######################################*/
 /*############# -TABLETTE- #############*/
 /*######################################*/
-@media screen and (max-width: 811px) and (min-width: 480px) {
+@media screen and (max-width: 811px) and (min-width: 481px) {
     #filtres {
         width: 100%;
         margin-bottom: 15px;
@@ -970,6 +970,80 @@ footer a:hover {
         width:auto;
     }
     
+}
+@media screen and (min-width: 480px) and (max-width: 645px){
+    .header {
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+
+    .logo {
+        margin-top: 22px;
+        margin-left: 10px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu li {
+        border-bottom: 2px solid #ccc;
+        width: 100%;
+        padding-bottom: 13px;
+    }
+
+    .menu li:hover {
+        border-top: none;
+        margin-top: 0px;
+        border-bottom: 2px solid #0065FC;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .inscrire {
+        position: absolute;
+        right: 21px;
+        top: 43px;
+        margin: 0px;
+    }
+    #hebergements {
+        width: auto;
+    }
+    .hebergements {
+        display: flex;
+    }
+    .hebergements h4{
+        width:100%;
+        text-align: center;
+    }
+    .hebergements .vignette img {
+        height: 134px;
+        width: 334px;
+    }
+    .hebergements .vignette{
+        width:344px;
+    }
+    .activites .vignettes img {
+        height: 134px;
+        width: 334px;
+    }
+
+    .activites .vignettes.frioul img {
+        max-height: unset;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-block{
+        margin-bottom: 30px;
+        text-align: center;
+        margin-right: unset;
+    }
+
+
 }
 @media screen and (min-width: 1441px)
 {
